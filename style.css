@@ -37,18 +37,16 @@
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  
-
 }
 
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
-  
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0px 24px;
 }
@@ -78,7 +76,6 @@ body * {
   width: 64px;
   margin: 4px auto;
   transition: 0.5s;
-  
 }
 
 #switch button {
